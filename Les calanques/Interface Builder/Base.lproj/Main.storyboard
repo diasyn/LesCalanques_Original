@@ -52,10 +52,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2Y-Ff-Fx0">
-                                            <rect key="frame" x="8" y="31" width="359" height="79.5"/>
+                                            <rect key="frame" x="58" y="31" width="301" height="80"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nJ-VN-XfE">
-                                                    <rect key="frame" x="160" y="8" width="191" height="64"/>
+                                                    <rect key="frame" x="85" y="8" width="208" height="64"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -63,25 +63,27 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="9nJ-VN-XfE" secondAttribute="bottom" constant="8" id="GFc-QB-fIE"/>
-                                                <constraint firstItem="9nJ-VN-XfE" firstAttribute="top" secondItem="v2Y-Ff-Fx0" secondAttribute="top" constant="8" id="hog-Ah-Lvb"/>
-                                                <constraint firstItem="9nJ-VN-XfE" firstAttribute="leading" secondItem="v2Y-Ff-Fx0" secondAttribute="leading" constant="160" id="jKx-2g-0dK"/>
-                                                <constraint firstAttribute="trailing" secondItem="9nJ-VN-XfE" secondAttribute="trailing" constant="8" id="rO8-OY-ZzN"/>
+                                                <constraint firstItem="9nJ-VN-XfE" firstAttribute="top" secondItem="v2Y-Ff-Fx0" secondAttribute="top" constant="8" id="68y-Mx-u8I"/>
+                                                <constraint firstItem="9nJ-VN-XfE" firstAttribute="leading" relation="lessThanOrEqual" secondItem="v2Y-Ff-Fx0" secondAttribute="leading" constant="85" id="G7e-kF-aRe"/>
+                                                <constraint firstAttribute="bottom" secondItem="9nJ-VN-XfE" secondAttribute="bottom" constant="8" id="LLq-JP-ubj"/>
+                                                <constraint firstAttribute="trailing" secondItem="9nJ-VN-XfE" secondAttribute="trailing" constant="8" id="rXn-iZ-LcV"/>
                                             </constraints>
                                         </view>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="36e-Jg-qtY" customClass="ImageRonde" customModule="Les_calanques" customModuleProvider="target">
-                                            <rect key="frame" x="8" y="8" width="151" height="126"/>
+                                            <rect key="frame" x="8" y="8" width="125" height="125"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="125" id="yrY-P6-ALe"/>
+                                            </constraints>
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="36e-Jg-qtY" secondAttribute="bottom" constant="8" id="1FV-k7-sDQ"/>
-                                        <constraint firstItem="36e-Jg-qtY" firstAttribute="top" secondItem="b98-bK-qvT" secondAttribute="top" constant="8" id="2tw-RK-Lc7"/>
-                                        <constraint firstItem="v2Y-Ff-Fx0" firstAttribute="centerX" secondItem="b98-bK-qvT" secondAttribute="centerX" id="UEs-UF-fqg"/>
-                                        <constraint firstItem="36e-Jg-qtY" firstAttribute="leading" secondItem="b98-bK-qvT" secondAttribute="leading" constant="8" id="VXy-XF-Zsu"/>
-                                        <constraint firstAttribute="trailing" secondItem="36e-Jg-qtY" secondAttribute="trailing" constant="216" id="ZTD-r9-bwf"/>
-                                        <constraint firstItem="v2Y-Ff-Fx0" firstAttribute="top" secondItem="b98-bK-qvT" secondAttribute="topMargin" constant="20" id="ibX-52-S43"/>
-                                        <constraint firstItem="v2Y-Ff-Fx0" firstAttribute="centerY" secondItem="b98-bK-qvT" secondAttribute="centerY" id="w66-8A-Pcc"/>
-                                        <constraint firstItem="v2Y-Ff-Fx0" firstAttribute="leading" secondItem="36e-Jg-qtY" secondAttribute="leading" id="zgJ-bb-2de"/>
+                                        <constraint firstItem="v2Y-Ff-Fx0" firstAttribute="leading" secondItem="b98-bK-qvT" secondAttribute="leadingMargin" constant="42" id="0Ue-1e-z37"/>
+                                        <constraint firstItem="36e-Jg-qtY" firstAttribute="centerY" secondItem="v2Y-Ff-Fx0" secondAttribute="centerY" id="3DV-mM-1n7"/>
+                                        <constraint firstItem="36e-Jg-qtY" firstAttribute="leading" secondItem="b98-bK-qvT" secondAttribute="leading" constant="8" id="9rG-Lw-Ne3"/>
+                                        <constraint firstItem="36e-Jg-qtY" firstAttribute="top" secondItem="b98-bK-qvT" secondAttribute="top" constant="8" id="Nep-sF-iQB"/>
+                                        <constraint firstItem="v2Y-Ff-Fx0" firstAttribute="top" secondItem="b98-bK-qvT" secondAttribute="topMargin" constant="20" id="Qgn-NA-tUR"/>
+                                        <constraint firstItem="v2Y-Ff-Fx0" firstAttribute="trailing" secondItem="b98-bK-qvT" secondAttribute="trailingMargin" id="ck7-wR-QjN"/>
+                                        <constraint firstItem="36e-Jg-qtY" firstAttribute="centerY" secondItem="b98-bK-qvT" secondAttribute="centerY" id="fNu-7j-tSw"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
