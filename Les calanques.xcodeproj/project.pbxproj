@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E076400213B2B2500FD20C3 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0763FF213B2B2500FD20C3 /* CalanqueCell.swift */; };
 		7E3AB545213ABD320017EA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AB544213ABD320017EA4F /* AppDelegate.swift */; };
-		7E3AB547213ABD320017EA4F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AB546213ABD320017EA4F /* FirstViewController.swift */; };
-		7E3AB549213ABD320017EA4F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3AB548213ABD320017EA4F /* SecondViewController.swift */; };
 		7E3AB54C213ABD320017EA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AB54A213ABD320017EA4F /* Main.storyboard */; };
 		7E3AB54E213ABD330017EA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AB54D213ABD330017EA4F /* Assets.xcassets */; };
 		7E3AB551213ABD330017EA4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3AB54F213ABD330017EA4F /* LaunchScreen.storyboard */; };
+		84639C7B213AEEED0016C705 /* Calanques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84639C7A213AEEED0016C705 /* Calanques.swift */; };
+		84639C7D213AF31A0016C705 /* CalanquesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84639C7C213AF31A0016C705 /* CalanquesCollection.swift */; };
+		84639C7F213AF6C40016C705 /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84639C7E213AF6C40016C705 /* ControllerAvecCarte.swift */; };
+		84639C81213AF6F10016C705 /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84639C80213AF6F10016C705 /* ControllerAvecTableView.swift */; };
+		84639C83213AF7150016C705 /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84639C82213AF7150016C705 /* TableViewIntegreeController.swift */; };
+		84CD8A08213C054A0029EEA0 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD8A07213C054A0029EEA0 /* ImageRonde.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E0763FF213B2B2500FD20C3 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		7E3AB541213ABD320017EA4F /* Les calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3AB544213ABD320017EA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E3AB546213ABD320017EA4F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7E3AB548213ABD320017EA4F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7E3AB54B213ABD320017EA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E3AB54D213ABD330017EA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3AB550213ABD330017EA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3AB552213ABD330017EA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84639C7A213AEEED0016C705 /* Calanques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanques.swift; sourceTree = "<group>"; };
+		84639C7C213AF31A0016C705 /* CalanquesCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanquesCollection.swift; sourceTree = "<group>"; };
+		84639C7E213AF6C40016C705 /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		84639C80213AF6F10016C705 /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableView.swift; sourceTree = "<group>"; };
+		84639C82213AF7150016C705 /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
+		84CD8A07213C054A0029EEA0 /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,53 @@
 		7E3AB543213ABD320017EA4F /* Les calanques */ = {
 			isa = PBXGroup;
 			children = (
+				84639C79213AEE740016C705 /* Interface Builder */,
+				84639C78213AEDF80016C705 /* Modèle */,
+				84639C77213AEDF00016C705 /* Vue */,
+				84639C76213AEDEB0016C705 /* Controller */,
 				7E3AB544213ABD320017EA4F /* AppDelegate.swift */,
-				7E3AB546213ABD320017EA4F /* FirstViewController.swift */,
-				7E3AB548213ABD320017EA4F /* SecondViewController.swift */,
-				7E3AB54A213ABD320017EA4F /* Main.storyboard */,
 				7E3AB54D213ABD330017EA4F /* Assets.xcassets */,
-				7E3AB54F213ABD330017EA4F /* LaunchScreen.storyboard */,
 				7E3AB552213ABD330017EA4F /* Info.plist */,
 			);
 			path = "Les calanques";
+			sourceTree = "<group>";
+		};
+		84639C76213AEDEB0016C705 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84639C7E213AF6C40016C705 /* ControllerAvecCarte.swift */,
+				84639C80213AF6F10016C705 /* ControllerAvecTableView.swift */,
+				84639C82213AF7150016C705 /* TableViewIntegreeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84639C77213AEDF00016C705 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+				7E0763FF213B2B2500FD20C3 /* CalanqueCell.swift */,
+				84CD8A07213C054A0029EEA0 /* ImageRonde.swift */,
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		84639C78213AEDF80016C705 /* Modèle */ = {
+			isa = PBXGroup;
+			children = (
+				84639C7A213AEEED0016C705 /* Calanques.swift */,
+				84639C7C213AF31A0016C705 /* CalanquesCollection.swift */,
+			);
+			name = "Modèle";
+			path = "Modèle";
+			sourceTree = "<group>";
+		};
+		84639C79213AEE740016C705 /* Interface Builder */ = {
+			isa = PBXGroup;
+			children = (
+				7E3AB54A213ABD320017EA4F /* Main.storyboard */,
+				7E3AB54F213ABD330017EA4F /* LaunchScreen.storyboard */,
+			);
+			path = "Interface Builder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3AB549213ABD320017EA4F /* SecondViewController.swift in Sources */,
+				84639C83213AF7150016C705 /* TableViewIntegreeController.swift in Sources */,
+				84639C7D213AF31A0016C705 /* CalanquesCollection.swift in Sources */,
+				7E076400213B2B2500FD20C3 /* CalanqueCell.swift in Sources */,
+				84639C81213AF6F10016C705 /* ControllerAvecTableView.swift in Sources */,
 				7E3AB545213ABD320017EA4F /* AppDelegate.swift in Sources */,
-				7E3AB547213ABD320017EA4F /* FirstViewController.swift in Sources */,
+				84639C7F213AF6C40016C705 /* ControllerAvecCarte.swift in Sources */,
+				84CD8A08213C054A0029EEA0 /* ImageRonde.swift in Sources */,
+				84639C7B213AEEED0016C705 /* Calanques.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
